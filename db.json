@@ -1,0 +1,94 @@
+{
+  "sensors": [
+    {
+      "id": 1,
+      "name": "Main Sensor 1",
+      "latitude": 51.505,
+      "longitude": -0.09,
+      "lastValue": 1230,
+      "lastValueTime": "2024-07-20T10:00:00Z",
+      "unit": "L",
+      "children": [2, 3, 4, 5]
+    },
+    {
+      "id": 2,
+      "name": "Sub Sensor 1",
+      "latitude": 51.505,
+      "longitude": -0.10,
+      "lastValue": 300,
+      "lastValueTime": "2024-07-20T10:01:00Z",
+      "unit": "L",
+      "parent": 1
+    },
+    {
+      "id": 3,
+      "name": "Sub Sensor 2",
+      "latitude": 51.506,
+      "longitude": -0.09,
+      "lastValue": 310,
+      "lastValueTime": "2024-07-20T10:02:00Z",
+      "unit": "L",
+      "parent": 1
+    },
+    {
+      "id": 4,
+      "name": "Sub Sensor 3",
+      "latitude": 51.507,
+      "longitude": -0.08,
+      "lastValue": 320,
+      "lastValueTime": "2024-07-20T10:03:00Z",
+      "unit": "L",
+      "parent": 1
+    },
+    {
+      "id": 5,
+      "name": "Sub Sensor 4",
+      "latitude": 51.508,
+      "longitude": -0.07,
+      "lastValue": 300,
+      "lastValueTime": "2024-07-20T10:04:00Z",
+      "unit": "L",
+      "parent": 1
+    },
+    {
+      "id": 6,
+      "name": "Main Sensor 2",
+      "latitude": 51.515,
+      "longitude": -0.11,
+      "lastValue": 1500,
+      "lastValueTime": "2024-07-20T10:05:00Z",
+      "unit": "L",
+      "children": [7, 8, 9]
+    },
+    {
+      "id": 7,
+      "name": "Sub Sensor 5",
+      "latitude": 51.516,
+      "longitude": -0.12,
+      "lastValue": 500,
+      "lastValueTime": "2024-07-20T10:06:00Z",
+      "unit": "L",
+      "parent": 6
+    },
+    {
+      "id": 8,
+      "name": "Sub Sensor 6",
+      "latitude": 51.517,
+      "longitude": -0.13,
+      "lastValue": 490,
+      "lastValueTime": "2024-07-20T10:07:00Z",
+      "unit": "L",
+      "parent": 6
+    },
+    {
+      "id": 9,
+      "name": "Sub Sensor 7",
+      "latitude": 51.518,
+      "longitude": -0.14,
+      "lastValue": 510,
+      "lastValueTime": "2024-07-20T10:08:00Z",
+      "unit": "L",
+      "parent": 6
+    }
+  ]
+}
